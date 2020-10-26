@@ -1,0 +1,21 @@
+{
+  "name": "manlan-composer/manlan-composer",
+  "description": "Hello, manlan!",
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "manlan",
+      "email": "manlan2010@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "manlanComposer\\": "src/manlanComposer"
+    }
+  }
+}
